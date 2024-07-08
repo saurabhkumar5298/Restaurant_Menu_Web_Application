@@ -1,0 +1,81 @@
+/* Set background color for the body */
+body {
+    background-color: #e7e5e5;
+}
+
+/* Customize the background color for the navbar */
+.bg-light {
+    background-color: rgb(44 43 63 / 99%) !important;
+}
+
+.navbar-collapse {
+    padding-right: 1rem; /* Add padding to the right to create space */
+}
+
+.navbar-nav {
+    flex-direction: row; /* Make the navbar items align horizontally */
+}
+
+/* Style for the banner container */
+.banner {
+    position: relative;
+    padding-top: 20%;
+}
+
+/* Wrapper for the video to apply border-radius */
+.video-wrapper {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 80%;
+    height: 100%;
+    transform: translateX(-50%);
+    border-radius: 3%;
+    overflow: hidden;
+}
+
+/* Style for the banner video */
+.banner video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+
+}
+
+/* Style for the navbar brand */
+.navbar-brand {
+    color: darkgoldenrod;
+    font-weight: bold; 
+    font-style: italic; 
+}
+
+/* Style for the navigation links */
+.nav-link {
+    color: bisque;
+}
+
+/* Style for the cards */
+.card {
+    height: 100%; 
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.1); /* Scale up the card on hover */
+}
+/* Style for images */
+img{
+    vertical-align: middle; 
+    height: 15rem; 
+}
+
+
+/* Custom CSS for search input */
+@media (min-width: 1180px) {
+    /* Apply the width only for screens larger than or equal to medium size */
+    #search-input {
+        width: 650px;
+    }
+}
+
